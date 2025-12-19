@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: serif;
+}
+
+/*Header CSS*/
+header{
+    background-color: rgb(18, 18, 18);
+    color: white;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    height: auto;
+}
+
+main{
+    margin-bottom: 90px;
+}
+
+#logo{
+    border-radius: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar{
+    display: flex;
+    list-style: none;
+    gap: 1em;
+}
+
+.container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+#title1{
+    font-size: 70px;
+}
+
+.para1{
+    font-size: 20px;
+}
+
+.hero{
+    text-align: center;
+    height: 200px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: rgb(255, 255, 255);
+}
+
+a:hover{
+    color:rgb(255, 188, 188)
+}
+
+.cards{
+    padding: 20px;
+    display: grid;
+    width: 100%;
+    height: 200px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.card1{
+    border-radius: 10px;
+    margin: 10px;
+    padding:10px;
+    width: 300px;
+    height: 100px;
+    grid-area: 1/1;
+    background-color: lightpink;
+}
+
+.card2{
+    border-radius: 10px;
+    margin: 10px;
+    padding:10px;
+    width: 300px;
+    height: 100px;
+    grid-area: 1/2;
+    background-color: lightpink;
+}
+
+.card3{
+    border-radius: 10px;
+    margin: 10px;
+    padding:10px;
+    width: 300px;
+    height: 100px;
+    grid-area: 1/3;
+    background-color: lightpink;
+}
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pro1{
+    background: lightcoral;
+    width:400px; 
+    height: 200px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.pro2{
+    background-color: lightcoral;
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.pro3{
+    background-color: lightcoral;
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/*Footer CSS*/
+
+footer{
+    background-color: rgb(18, 18, 18);
+    color: white;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

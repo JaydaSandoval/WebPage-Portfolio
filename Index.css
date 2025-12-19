@@ -1,0 +1,105 @@
+/*Contact HTML CSS*/
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: serif;
+}
+
+/*Header CSS*/
+header{
+    background-color: rgb(18, 18, 18);
+    color: white;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    }
+
+#logo{
+    border-radius: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar{
+    display: flex;
+    list-style: none;
+    gap: 1em;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: rgb(255, 255, 255);
+}
+
+a:hover{
+    color:rgb(255, 188, 188)
+}
+
+.main{
+    width: 100%;
+}
+
+.titles{
+    text-decoration: underline;
+    padding: 5px;
+}
+
+.grid{
+    color: white;
+    padding: 200px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+    height: 900px;
+    gap: 30px;
+}
+
+.box1{
+    background-color: lightpink;
+    width: 500px;
+    grid-row: 1/2;
+    padding: 20px;
+}
+
+.box2{
+    background-color: lightpink;
+    width: 500px;
+    grid-row: 2/1;
+    padding: 20px;
+}
+
+input{
+    border-color: rgb(255, 139, 159);
+    width: 430px;
+    padding: 10px;
+}
+
+#message{
+    width: 430px;
+    max-width: 490px;
+    max-height: 300px;
+}
+
+/*Footer CSS*/
+
+footer{
+    background-color: rgb(18, 18, 18);
+    color: white;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
